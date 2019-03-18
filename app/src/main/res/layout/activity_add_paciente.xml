@@ -7,4 +7,53 @@
     android:orientation="vertical"
     tools:context=".AddPacienteActivity">
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_do_paciente"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/numero_do_leito"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pressao_arterial"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/batimentos_cardiacos"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/temperatura"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textAlignment="center"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar"
+        android:layout_margin="10dp"
+        android:background="#C5E7FF"/>
+
 </LinearLayout>

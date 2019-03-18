@@ -7,4 +7,33 @@
     android:orientation="vertical"
     tools:context=".DetalheActivity">
 
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_do_paciente"
+        android:layout_marginTop="20dp"
+        android:textSize="18dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/buscar"
+        android:layout_margin="10dp"
+        android:background="#C5E7FF"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/voltar"
+        android:textColor="#fff"
+        android:layout_margin="10dp"
+        android:background="#000"/>
+
+    <!-- O resultado da pesquisa será exibido no elemento abaixo -->
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
