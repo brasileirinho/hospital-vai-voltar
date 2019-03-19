@@ -8,6 +8,7 @@
     tools:context=".DetalheActivity">
 
     <EditText
+        android:id="@+id/text_buscar_nome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/nome_do_paciente"
@@ -16,6 +17,7 @@
         android:textAlignment="center"/>
 
     <Button
+        android:id="@+id/button_buscar_paciente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/buscar"
@@ -23,16 +25,18 @@
         android:background="#C5E7FF"/>
 
     <Button
+        android:id="@+id/button_listar_todos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/voltar"
-        android:textColor="#fff"
+        android:text="@string/listar_pacientes"
         android:layout_margin="10dp"
-        android:background="#000"/>
+        android:background="#C5E799"/>
 
     <!-- O resultado da pesquisa será exibido no elemento abaixo -->
     <TextView
-        android:layout_marginTop="20dp"
+        android:id="@+id/text_resultado_pesquisa"
+        android:layout_margin="20dp"
+        android:textSize="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 

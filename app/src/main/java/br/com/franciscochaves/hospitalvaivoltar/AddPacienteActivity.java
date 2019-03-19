@@ -2,6 +2,7 @@ package br.com.franciscochaves.hospitalvaivoltar;
 
 import android.app.AlertDialog;
 import android.content.Context;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
