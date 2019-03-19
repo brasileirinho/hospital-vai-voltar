@@ -1,5 +1,6 @@
 package br.com.franciscochaves.hospitalvaivoltar;
 
+import android.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
@@ -29,5 +30,13 @@ public class AddPacienteActivity extends AppCompatActivity {
         EditText batimentoCardiaco;
         EditText temperatura;
         Button salvar;
+    }
+
+    private void exixbirMessagem(String titulo, String messagem) {
+        AlertDialog.Builder builder= new AlertDialog.Builder(this);
+        builder.setCancelable(true);
+        builder.setTitle(titulo);
+        builder.setMessage(messagem);
+        builder.show();
     }
 }
