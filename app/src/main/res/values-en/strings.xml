@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hospital Go Back</string>
+    <string name="nome_do_paciente">Patient name</string>
+    <string name="numero_do_leito">Bed number</string>
+    <string name="pressao_arterial">Blood pressure</string>
+    <string name="batimentos_cardiacos">Heart beats</string>
+    <string name="temperatura">Temperature</string>
+    <string name="salvar">Save</string>
+    <string name="adicionar_paciente">Add patient</string>
+    <string name="pesquisar_paciente">Search for patient</string>
+    <string name="buscar">Search</string>
+    <string name="listar_pacientes">List Patients</string>
+</resources>
