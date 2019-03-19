@@ -8,6 +8,7 @@
     tools:context=".AddPacienteActivity">
 
     <EditText
+        android:id="@+id/text_nome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/nome_do_paciente"
@@ -16,6 +17,7 @@
         android:textAlignment="center"/>
 
     <EditText
+        android:id="@+id/text_leito"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/numero_do_leito"
@@ -24,6 +26,7 @@
         android:textAlignment="center"/>
 
     <EditText
+        android:id="@+id/text_pressao_arterial"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/pressao_arterial"
@@ -32,6 +35,7 @@
         android:textAlignment="center"/>
 
     <EditText
+        android:id="@+id/text_batimento_cardiaco"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/batimentos_cardiacos"
@@ -40,6 +44,7 @@
         android:textAlignment="center"/>
 
     <EditText
+        android:id="@+id/text_temperatura"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/temperatura"
@@ -50,6 +55,7 @@
 
 
     <Button
+        android:id="@+id/button_salvar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/salvar"
