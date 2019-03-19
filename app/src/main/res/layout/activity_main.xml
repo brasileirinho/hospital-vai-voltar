@@ -15,6 +15,7 @@
         android:src="@drawable/coracao_pulso" />
 
     <Button
+        android:id="@+id/button_adicionar_paciente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/adicionar_paciente"
@@ -22,6 +23,7 @@
         android:background="#C5E7FF"/>
 
     <Button
+        android:id="@+id/button_pesquisa_paciente"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/pesquisar_paciente"
