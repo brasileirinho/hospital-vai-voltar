@@ -18,6 +18,7 @@
 
     <EditText
         android:id="@+id/text_leito"
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/numero_do_leito"
@@ -27,6 +28,7 @@
 
     <EditText
         android:id="@+id/text_pressao_arterial"
+        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/pressao_arterial"
@@ -36,6 +38,7 @@
 
     <EditText
         android:id="@+id/text_batimento_cardiaco"
+        android:inputType="number"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/batimentos_cardiacos"
@@ -45,6 +48,7 @@
 
     <EditText
         android:id="@+id/text_temperatura"
+        android:inputType="numberDecimal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="@string/temperatura"
