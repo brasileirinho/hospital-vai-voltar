@@ -57,10 +57,20 @@ public class AddPacienteActivity extends AppCompatActivity implements View.OnCli
                 );
 
                 exixbirMessagem("Ok", "Dados Gravados com sucesso!");
+
+                limparCampos();
             }else{
                 exixbirMessagem("Erro", "Preencha todos os campos");
             }
         }
+    }
+
+    private void limparCampos() {
+        mViewHolder.nome.setText("");
+        mViewHolder.leito.setText("");
+        mViewHolder.pressaoArterial.setText("");
+        mViewHolder.batimentoCardiaco.setText("");
+        mViewHolder.temperatura.setText("");
     }
 
     private boolean verificarCamposPreenchido() {
